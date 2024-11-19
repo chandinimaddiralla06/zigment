@@ -1,0 +1,19 @@
+# Create a new React project with TypeScript
+npx create-react-app dynamic-form-generator --template typescript
+
+# Navigate to the project directory
+cd dynamic-form-generator
+
+# Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+# Install React Hook Form, JSON Schema validation tools, and testing libraries
+npm install react-hook-form zod @hookform/resolvers
+npm install --save-dev jest @testing-library/react @testing-library/react-hooks @testing-library/jest-dom
+npm install playwright
+
+
+
+
+
